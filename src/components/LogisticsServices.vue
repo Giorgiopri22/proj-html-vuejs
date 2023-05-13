@@ -14,10 +14,12 @@ export default{
                 <span>OUR BUSINESS AREAS</span>
                 <h2>Logistics Services</h2>
                 <p>We are leaders in providing logistics services with a set of cutting edge technologies and a team of experienced and renowned professionals.</p>
-                <button>Tradition</button>
-                <button>Quality</button>
-                <button>Security</button>
                 <div>
+                    <button>Tradition</button>
+                    <button>Quality</button>
+                    <button>Security</button>
+                </div>
+                <div class="read-more">
                     <a href="/">
                         <button>READ MORE</button>
                     </a>
@@ -29,7 +31,7 @@ export default{
                     <img src="../assets/img/gallery-3.jpg" class="card-img-top" alt="technology-logo">
                     <div class="card-body">
                         <h5 class="card-title">Techonlogy</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Focused on developing technology solutions adapted to our client's needs.</p>
                     </div>
                 </div>
             </div>
@@ -38,7 +40,7 @@ export default{
                     <img src="../assets/img/gallery-5.jpg" class="card-img-top" alt="technology-logo">
                     <div class="card-body">
                         <h5 class="card-title">Transport</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">We develop operational strategies to improve logistical efficiency.</p>
                     </div>
                 </div>
             </div>
@@ -48,7 +50,7 @@ export default{
 
 <style lang="scss" scoped>
     section{
-        background-color: #edf4ec;
+        background-color: #e5ebe5;
             .container{
                 width: 70%;
                 justify-content: space-around;
@@ -56,9 +58,38 @@ export default{
             }
             .services{
                 width: 30%;
+                padding: 10px;
+                    h2{
+                        font-size: 50px;
+                        font-weight: 900;
+                    }
+                    p{
+                        margin-top: 25px;
+                    }
+                    div{
+                        margin-top: 40px;
+                        display: flex;
+                        justify-content: space-evenly;
+                            button{
+                                padding: 7px;
+                                border-radius: 4px;
+                                border: none;
+                                background-color: #8cdadc;
+                                color: #088181;
+                            }                        
+                    }
+                    .read-more a button{
+                        background-color: #088181;
+                        color: white;
+                    }
             }
             .cover-card{
+                border: 40px solid white;
                 background-color: white;
+                border-radius: 5px;
+                    .card{
+                        border: none;
+                    }
             }
     }
 </style>

@@ -2,6 +2,9 @@
 import LogisticsServices from './LogisticsServices.vue';
 import TheCompany from './TheCompany.vue' ;
 import Logo from './Logo.vue';
+import EditorialContent from './EditorialContent.vue';
+import Newsletter from './Newsletter.vue';
+import Form from './Form.vue'; 
 
 export default{
     name: "AppMain",
@@ -9,6 +12,9 @@ export default{
         LogisticsServices,
         TheCompany,
         Logo,
+        EditorialContent,
+        Newsletter,
+        Form,
     }
 }
 
@@ -19,6 +25,9 @@ export default{
         <LogisticsServices/>
         <TheCompany/>
         <Logo/>
+        <EditorialContent/>
+        <Newsletter/>
+        <Form/>
     </section>
 </template>
 
