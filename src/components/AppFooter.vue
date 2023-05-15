@@ -48,78 +48,78 @@ export default{
                 <div>
                     <h3>About</h3>
                     <ul>
+                        <li class="d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-chevron-right me-2"></i>
+                            <span>The Company</span>
+                        </li>
+                        <li class="d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-chevron-right me-2"></i>
+                            <span>The Company</span>
+                        </li>
+                        <li class="d-flex align-items-center justify-content-center ">
+                            <i class="fa-solid fa-chevron-right me-2"></i>
+                            <span>The Company</span>
+                        </li>
+                        <li class="d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-chevron-right me-2"></i>
+                            <span>The Company</span>
+                        </li>
+                        <li class="d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-chevron-right me-2"></i>
+                            <span>The Company</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-cover my-5 p-5">
+                <div>
+                    <h3>Transport</h3>
+                    <ul>
+                        <li class="d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-chevron-right me-2"></i>
+                            <span>The Company</span>
+                        </li>
+                        <li class="d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-chevron-right me-2"></i>
+                            <span>The Company</span>
+                        </li>
+                        <li class="d-flex align-items-center justify-content-center ">
+                            <i class="fa-solid fa-chevron-right me-2"></i>
+                            <span>The Company</span>
+                        </li>
+                        <li class="d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-chevron-right me-2"></i>
+                            <span>The Company</span>
+                        </li>
+                        <li class="d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-chevron-right me-2"></i>
+                            <span>The Company</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-cover my-5 p-5">
+                <div>
+                    <h3>Support</h3>
+                    <ul>
                         <li class="d-flex align-items-center             justify-content-center">
                             <i class="fa-solid fa-chevron-right me-2"></i>
                             <span>The Company</span>
                         </li>
                         <li class="d-flex align-items-center             justify-content-center">
-                            <i class="fa-solid fa-chevron-right"></i>
+                            <i class="fa-solid fa-chevron-right me-2"></i>
                             <span>The Company</span>
                         </li>
                         <li class="d-flex align-items-center             justify-content-center ">
-                            <i class="fa-solid fa-chevron-right"></i>
+                            <i class="fa-solid fa-chevron-right me-2"></i>
                             <span>The Company</span>
                         </li>
                         <li class="d-flex align-items-center             justify-content-center">
-                            <i class="fa-solid fa-chevron-right"></i>
+                            <i class="fa-solid fa-chevron-right me-2"></i>
                             <span>The Company</span>
                         </li>
                         <li class="d-flex align-items-center             justify-content-center">
-                            <i class="fa-solid fa-chevron-right"></i>
-                            <span>The Company</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card-cover my-5 p-5">
-                <div>
-                    <h3>About</h3>
-                    <ul>
-                        <li class="d-flex align-items-center justify-content-center">
-                            <i class="fa-solid fa-chevron-right"></i>
-                            <span>The Company</span>
-                        </li>
-                        <li class="d-flex align-items-center justify-content-center">
-                            <i class="fa-solid fa-chevron-right"></i>
-                            <span>The Company</span>
-                        </li>
-                        <li class="d-flex align-items-center justify-content-center ">
-                            <i class="fa-solid fa-chevron-right"></i>
-                            <span>The Company</span>
-                        </li>
-                        <li class="d-flex align-items-center justify-content-center">
-                            <i class="fa-solid fa-chevron-right"></i>
-                            <span>The Company</span>
-                        </li>
-                        <li class="d-flex align-items-center justify-content-center">
-                            <i class="fa-solid fa-chevron-right"></i>
-                            <span>The Company</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card-cover my-5 p-5">
-                <div>
-                    <h3>About</h3>
-                    <ul>
-                        <li class="d-flex align-items-center             justify-content-center">
-                            <i class="fa-solid fa-chevron-right"></i>
-                            <span>The Company</span>
-                        </li>
-                        <li class="d-flex align-items-center             justify-content-center">
-                            <i class="fa-solid fa-chevron-right"></i>
-                            <span>The Company</span>
-                        </li>
-                        <li class="d-flex align-items-center             justify-content-center ">
-                            <i class="fa-solid fa-chevron-right"></i>
-                            <span>The Company</span>
-                        </li>
-                        <li class="d-flex align-items-center             justify-content-center">
-                            <i class="fa-solid fa-chevron-right"></i>
-                            <span>The Company</span>
-                        </li>
-                        <li class="d-flex align-items-center             justify-content-center">
-                            <i class="fa-solid fa-chevron-right "></i>
+                            <i class="fa-solid fa-chevron-right me-2"></i>
                             <span>The Company</span>
                         </li>
                     </ul>
@@ -154,7 +154,10 @@ section{
         }
         .card-cover{
             border: 1px solid red;
-            border-radius: 10px;            
+            border-radius: 10px;
+                h3{
+                    color: white;
+                }            
                 ul{
                     list-style-type: none;
                 }
