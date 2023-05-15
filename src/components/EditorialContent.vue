@@ -58,7 +58,7 @@ export default{
             padding: 8px;
             border-radius: 7px;
             color: white;
-            background-color: #088181;
+            background-color: #2F8083;
             border: none;
             width: 8%;
         }

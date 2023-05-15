@@ -9,15 +9,15 @@ export default{
 
 <template>
     <section>
-        <div class="container d-flex">
+        <div class="container d-flex ">
             <div class="services">
                 <span>OUR BUSINESS AREAS</span>
                 <h2>Logistics Services</h2>
                 <p>We are leaders in providing logistics services with a set of cutting edge technologies and a team of experienced and renowned professionals.</p>
                 <div>
-                    <button>Tradition</button>
+                    <button class="me-3">Tradition</button>
                     <button>Quality</button>
-                    <button>Security</button>
+                    <button class="ms-3">Security</button>
                 </div>
                 <div class="read-more">
                     <a href="/">
@@ -59,6 +59,10 @@ export default{
             .services{
                 width: 30%;
                 padding: 10px;
+                    span{
+                        font-weight: 700;
+                        color: #63B8C9;
+                    }
                     h2{
                         font-size: 50px;
                         font-weight: 900;
@@ -69,22 +73,24 @@ export default{
                     div{
                         margin-top: 40px;
                         display: flex;
-                        justify-content: space-evenly;
+                        
                             button{
-                                padding: 7px;
+                                padding: 8px;
                                 border-radius: 4px;
                                 border: none;
-                                background-color: #8cdadc;
+                                background-color: #CFE2DE;
                                 color: #088181;
+                                
                             }                        
                     }
                     .read-more a button{
                         background-color: #088181;
                         color: white;
+                        
                     }
             }
             .cover-card{
-                border: 40px solid white;
+                border: 30px solid white;
                 background-color: white;
                 border-radius: 5px;
                     .card{

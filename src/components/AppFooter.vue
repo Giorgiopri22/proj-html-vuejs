@@ -75,23 +75,23 @@ export default{
                 <div>
                     <h3>About</h3>
                     <ul>
-                        <li class="d-flex align-items-center             justify-content-center">
+                        <li class="d-flex align-items-center justify-content-center">
                             <i class="fa-solid fa-chevron-right"></i>
                             <span>The Company</span>
                         </li>
-                        <li class="d-flex align-items-center             justify-content-center">
+                        <li class="d-flex align-items-center justify-content-center">
                             <i class="fa-solid fa-chevron-right"></i>
                             <span>The Company</span>
                         </li>
-                        <li class="d-flex align-items-center             justify-content-center ">
+                        <li class="d-flex align-items-center justify-content-center ">
                             <i class="fa-solid fa-chevron-right"></i>
                             <span>The Company</span>
                         </li>
-                        <li class="d-flex align-items-center             justify-content-center">
+                        <li class="d-flex align-items-center justify-content-center">
                             <i class="fa-solid fa-chevron-right"></i>
                             <span>The Company</span>
                         </li>
-                        <li class="d-flex align-items-center             justify-content-center">
+                        <li class="d-flex align-items-center justify-content-center">
                             <i class="fa-solid fa-chevron-right"></i>
                             <span>The Company</span>
                         </li>
