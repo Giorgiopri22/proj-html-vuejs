@@ -36,8 +36,8 @@ export default{
         <div class="jumbo">
             <nav class="d-flex justify-content-between align-items-center">
                 <div>
-                    <span class="special">NEX</span>
-                    <span >GEN</span>
+                    <span class="special"><strong>N E X</strong></span>
+                    <span><strong> G E N</strong></span>
                 </div>
                 <div>
                     <ul class="d-flex">
@@ -76,7 +76,8 @@ export default{
             </nav>
             <div class="logistic-info">
                 <div class="relative">
-                    <h1>Logistics that goes further.</h1>
+                    <h1>Logistics</h1>
+                    <h1>that goes further.</h1>
                     <p>For 20 years working with the most innovative in the field of transport.</p>
                 </div>
                 <div>
@@ -169,12 +170,13 @@ export default{
                         &::before{
                             content: "";
                             position: absolute;
-                            background-color: #457876;
+                            background-color: #3A6B6B;
                             height: 30px;
                             width: 70%;
                             top: 45px;
-                            z-index: 1;
+                            z-index: -1;
                             border-radius: 5px;
+                            
                         }
                     }
                     

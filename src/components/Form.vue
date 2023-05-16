@@ -13,10 +13,15 @@ export default{
                 <span>
                     SEND A MESSAGE
                 </span>
-                <h2>
-                    Get in Touch
-                </h2>
-                <p>
+                <div class="d-flex">
+                    <h2 class="normal">
+                        Get in 
+                    </h2>
+                    <h2 class="ms-2 special">
+                        Touch
+                    </h2>
+                </div>
+                <p class="mt-2">
                     We will respond to your message as soon as possible.
                 </p>
                 <div class="my-5">
@@ -91,13 +96,10 @@ section{
                     color: #000000;
                 }
                 span{
-                    color: #088181;
+                    color: #45A5A6;
                     font-weight: 700;
                 }
-                h2{
-                    font-weight: 700;
-                    font-size: 42px;
-                }
+                
                 .form-size{
                     width: 40%;
                     border: none;
@@ -121,6 +123,17 @@ section{
                     border-radius: 5px;
                     color: white;
                     background-color: #088181;
+                }
+                .special{
+                    background-color: #CFE2DE;
+                    color: #2F8083;
+                    padding: 7px;
+                    border-radius: 6px;
+                    font-weight: 900;
+                }
+                .normal{
+                    padding: 7px;
+                    font-weight: 900;
                 }
             }
             .contacts{

@@ -13,9 +13,10 @@ export default{
                 <span>
                     OUR EDITORIAL CONTENT
                 </span>
-                <h2>
-                    Latest News
-                </h2>
+                <div class="d-flex my-4">
+                    <h2 class="me-1 not-special">Latest</h2>
+                    <h2 class="special">News</h2>
+                </div>
             </div>
             <div class="d-flex justify-content-between align-items-center">
                 <p>Every week we publish content about what is the best in the business world.</p>
@@ -43,13 +44,20 @@ export default{
 .container{
     width: 90%;
         span{
-            color: #048383;
+            color: #48A6A8;
             font-weight: 700;
         }
-        h2{
-            font-weight: 900;
-            font-size: 40px;
+        .special{
+            background-color: #DCEBED;
+            padding: 10px;
+            border-radius: 3px;
+            color: #2F8083;
+            font-weight: bold;
         }
+        .not-special{
+            padding: 10px;
+            font-weight: bold;
+        }            
         p{
             line-height: 25px;
             

@@ -14,9 +14,10 @@ export default{
                     <span>
                         NEWSLETTER
                     </span>
-                    <h2>
-                        Know First
-                    </h2>
+                    <div class="d-flex my-2">
+                        <h2 class="me-1 special">Know</h2>
+                        <h2 class="not-special">First</h2>
+                    </div>
                     <p>
                         Follow closely and receive content about our company and the news of the current market.
                     </p>
@@ -53,11 +54,18 @@ section{
                             color: #048383;
                             font-weight: 700;
                         }
-                        h2{
-                            font-weight: 900;
+                        .special{
+                            background-color: #1C3238;
+                            padding: 10px;
+                            border-radius: 3px;
+                            color: #FFFFFF;
                             font-size: 40px;
-                            color: white;
                         }
+                        .not-special{
+                            padding: 10px;
+                            color: #FFFFFF;
+                            font-size: 40px;
+                        }                 
                         p{
                             color: white;
                         }

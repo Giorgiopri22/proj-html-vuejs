@@ -1,8 +1,12 @@
 <script >
 
+import RadialProgress from "vue3-radial-progress";
+
 export default{
     name: "TheCompany",
-    
+    components:{
+        RadialProgress,
+    }
 }
 
 </script>
@@ -23,27 +27,28 @@ export default{
                 </div>
                 
                 <div class="d-flex justify-content-between my-4">
-                    <div class="cerchio d-flex justify-content-center align-items-center">
+                    <RadialProgress class="d-flex justify-content-center align-items-center pippo" diameter="120" total-steps="100" completedSteps="0">
                         <span class="percent">0%</span>
-                    </div>
+                    </RadialProgress> 
                     <div>
                         <h4>Leadership</h4>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
                 <div class="d-flex justify-content-between my-4">
-                    <div class="cerchio d-flex justify-content-center align-items-center">
+                    <RadialProgress class="d-flex justify-content-center align-items-center pippo" diameter="120" total-steps="100" completedSteps="0">
                         <span class="percent">0%</span>
-                    </div>
+                    </RadialProgress> 
+                    
                     <div>
                         <h4>Psychology</h4>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
                 <div class="d-flex justify-content-between my-4">
-                    <div class="cerchio d-flex justify-content-center align-items-center">
+                    <RadialProgress class="d-flex justify-content-center align-items-center pippo" diameter="120" total-steps="100" completedSteps="1">
                         <span class="percent">1%</span>
-                    </div>
+                    </RadialProgress> 
                     <div>
                         <h4>Flexybility</h4>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -80,7 +85,9 @@ export default{
                         .percent{
                             font-size: 25px;
                             font-weight: 900;
+                            transform: rotate(90deg);
                         }
+                        
                         .special{
                             background-color: #12262D;
                             padding: 10px;
@@ -90,11 +97,9 @@ export default{
                             padding: 10px;
                         }                        
                 }
-                .cerchio{
-                    border: 10px solid #232328;
-                    border-radius: 50%;
-                    height: 100px;
-                    width: 100px;
+                
+                .pippo{
+                    transform: rotate(-90deg);
                 }
         }
         div{
