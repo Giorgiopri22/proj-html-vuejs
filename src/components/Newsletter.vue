@@ -84,6 +84,13 @@ section{
                     width: 20%;
                     border-radius: 4px;
                     border: none;
+                    &:hover{
+                        transition: 1s ease ;
+                        transform: scale(1.1);
+                        background-color: white;
+                        color: #2F8083;
+                        border: 1px solid #2F8083;
+                    }
                 }
         }
 }

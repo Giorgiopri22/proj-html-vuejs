@@ -178,6 +178,13 @@ section{
                             border-radius: 4px;
                             padding: 7px;
                             border: 1px solid #2B7477;
+                            &:hover{
+                                transition: 1s ease ;
+                                transform: scale(1.1);
+                                background-color: white;
+                                color: #2F8083;
+                                border: 1px solid #2F8083;
+                            }
                         }
                         .special{
                         color: #3DA4A6;
@@ -203,6 +210,9 @@ section{
                     padding: 0;
                         li{
                             padding: 5px;
+                            &:hover{
+                                color: crimson;
+                            }
                         }
                 }
             }

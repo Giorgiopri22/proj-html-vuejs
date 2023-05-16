@@ -123,6 +123,13 @@ section{
                     border-radius: 5px;
                     color: white;
                     background-color: #088181;
+                    &:hover{
+                        transition: 1s ease ;
+                        transform: scale(1.1);
+                        background-color: white;
+                        color: #2F8083;
+                        border: 1px solid #2F8083;
+                    }
                 }
                 .special{
                     background-color: #CFE2DE;
@@ -153,10 +160,17 @@ section{
                     }
                     button{
                         padding: 7px;
-                        width: 35%;
+                        width: 45%;
                         border: 1px solid #35808F;
                         color: #73878E;
                         border-radius: 5px;
+                        &:hover{
+                            transition: 1s ease ;
+                            transform: scale(1.1);
+                            background-color: white;
+                            color: #2F8083;
+                            border: 1px solid #2F8083;
+                        }
                     }   
                 }
         }

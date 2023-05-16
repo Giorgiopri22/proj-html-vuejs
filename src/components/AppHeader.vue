@@ -192,6 +192,13 @@ export default{
                             color: white;
                             border-radius: 7px;
                             border: none;
+                            &:hover{
+                                transition: 1s ease ;
+                                transform: scale(1.1);
+                                background-color: white;
+                                color: #2F8083;
+                                border: 1px solid #2F8083;
+                            }
                             
                         }
                         .btn-2{
@@ -200,6 +207,13 @@ export default{
                             background-color: inherit;
                             color: white;
                             border: 2px solid #048383;
+                            &:hover{
+                                transition: 1s ease ;
+                                transform: scale(1.1);
+                                background-color: white;
+                                color: #2F8083;
+                                border: 1px solid #2F8083;
+                            }
                         }
                     };
             }        
